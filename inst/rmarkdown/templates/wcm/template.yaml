@@ -1,0 +1,4 @@
+name: wcm
+description: >
+   Template for WCM Biostatistics reports.
+create_dir: FALSE
