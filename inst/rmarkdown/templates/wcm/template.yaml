@@ -1,4 +1,4 @@
 name: wcm
 description: >
-   Template for WCM Biostatistics reports.
-create_dir: FALSE
+  R Markdown template for WCM Biostatistics reports.
+create_dir: false

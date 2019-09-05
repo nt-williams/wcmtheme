@@ -1,6 +1,8 @@
 ---
 title: "Project Name"
-author: "Nick Williams, MPH"
+author: "Author Name"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+end_messsage: "Message to follow your name in footer"
 output: wcmtheme::wcm
 ---
 
