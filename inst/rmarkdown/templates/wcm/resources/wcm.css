@@ -24,6 +24,10 @@ blockquote p {
 	font-family: 'Source Code Pro', monospace;
 }
 
+blockquote {
+	border-left-color: #FFC72C;
+}
+
 .table{
   font-family: 'Roboto Condensed', sans-serif;
 }
