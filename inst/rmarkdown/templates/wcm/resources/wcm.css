@@ -17,11 +17,11 @@ h1, h2, h3 {
 
 h4 {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 blockquote {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .table{
@@ -43,7 +43,7 @@ caption {
 #TOC {
   font-family: 'Roboto', 'Helvetica';
   font-weight: 400;
-	font-size: 17px;
+	font-size: 15px;
 }
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
@@ -52,6 +52,13 @@ caption {
 	border-color: #B31B1B;
 }
 
+ .nav-tabs>li>a:hover {
+	 background-color: #B31B1B;
+	 color: #fff;
+ }
+
 a {
 	color: #555;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
 }

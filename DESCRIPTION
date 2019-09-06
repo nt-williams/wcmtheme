@@ -1,13 +1,13 @@
 Package: wcmtheme
-Title: What the Package Does (One Line, Title Case)
+Title: WCM Biostatistics report themes. 
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
+Authors@R:
+    person(given = "Nick",
+           family = "Williams",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "ntwilliams.personal@gmail.com")
+Description: Contains an R Markdown (html only) and ggplot2 theme for Weill Cornell Medicine Biostatistics reports.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1

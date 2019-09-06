@@ -127,13 +127,13 @@ h3 {
   font-size: 20px;
 }
 h4 {
-  font-size: 14px;
+  font-size: 16px;
 }
 h5 {
-  font-size: 14px;
+  font-size: 16px;
 }
 h6 {
-  font-size: 12px;
+  font-size: 15px;
 }
 .table th:not([align]) {
   text-align: left;
@@ -499,7 +499,7 @@ $if(subtitle)$
 $endif$
 $for(author)$
 $if(author.name)$
-<h4 class="author">$author.name$</h4>
+<p class="author"><i>$author.name$</i></p>
 $if(author.affiliation)$
 <address class="author_afil">
 $author.affiliation$<br>$endif$
@@ -508,11 +508,14 @@ $if(author.email)$
 </address>
 $endif$
 $else$
-<h4 class="author">$author$</h4>
+<p class="author"><b>Biostatistician: </b>$author$</p>
 $endif$
 $endfor$
+$if(pi)$
+<p class="pi"><b>Principal Investigator: </b>$pi$</p>
+$endif$
 $if(date)$
-<h4 class="date">$date$</h4>
+<p class="date"><i>$date$</i></p>
 $endif$
 $if(abstract)$
 <div class="abstract">
@@ -543,9 +546,9 @@ $endfor$
 
 <hr />
 <p style="text-align: center;"><span style="color: #B31B1B;"><b>Weill Cornell Medicine</b></span></p>
-<p style="text-align: center;">Division of Biostatistics and Epidemiology</p>
+<p style="text-align: center;"><span style="color: #E87722;">Division of Biostatistics and Epidemiology</p>
 <p style="text-align: center;">Department of Healthcare Policy and Research</p>
-<p style="text-align: center;"><span style="color: #808080;">$author$, $end_message$.</span></p>
+<p style="text-align: center;"><span style="color: #808080;">$author$, $footer_message$</span></p>
 
 $if(theme)$
 

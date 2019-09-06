@@ -1,13 +1,39 @@
 ---
 title: "Project Name"
 author: "Author Name"
+pi: "PI name"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-end_messsage: "Message to follow your name in footer"
-output: wcmtheme::wcm
+footer_message: "Message to follow your name in footer."
+output: 
+  wcmtheme::wcm: 
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+# Level one header
 
+Lorem ipsum dolor sit amet, quem deseruisse ut mea, mea et malorum deserunt. Eu est adipisci rationibus. An eos audiam adipiscing. Quot sale sea ei.
+
+```{r}
+knitr::kable(head(iris))
+```
+
+> You'll never be wrong if you turn right.
+
+## Level two header
+
+Lorem ipsum dolor sit amet, et prima verterem sit. His latine alienum te, quo legere maiorum prodesset et. Qui suas oratio consequuntur ne, qui prima bonorum ut. Eu nec ponderum consetetur, eu possit dissentias intellegebat usu. Amet saperet consectetuer nam ea, mutat ullum nihil ut sea.
+
+# Tabset {.tabset}
+
+## Tab 1
+
+Lorem ipsum dolor sit amet, et prima verterem sit. His latine alienum te, quo legere maiorum prodesset et. Qui suas oratio consequuntur ne, qui prima bonorum ut. Eu nec ponderum consetetur, eu possit dissentias intellegebat usu. Amet saperet consectetuer nam ea, mutat ullum nihil ut sea.
+
+## Tab 2
+
+Lorem ipsum dolor sit amet, quem deseruisse ut mea, mea et malorum deserunt. Eu est adipisci rationibus. An eos audiam adipiscing. Quot sale sea ei.
