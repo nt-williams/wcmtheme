@@ -20,8 +20,8 @@ h4 {
 	font-weight: 700;
 }
 
-blockquote {
-  font-family: 'Roboto Condensed', sans-serif;
+blockquote p {
+	font-family: 'Source Code Pro', monospace;
 }
 
 .table{
@@ -38,6 +38,10 @@ tbody {
 
 caption {
   color: black;
+}
+
+#end_footer p {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #TOC {

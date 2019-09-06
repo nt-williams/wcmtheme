@@ -24,13 +24,13 @@ $endif$
 
 <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
 
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+
 $for(header-includes)$
 $header-includes$
 $endfor$
-
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
 
 $if(highlightjs)$
 <style type="text/css">code{white-space: pre;}</style>
@@ -544,11 +544,13 @@ $for(include-after)$
 $include-after$
 $endfor$
 
+<div id="end_footer">
 <hr />
 <p style="text-align: center;"><span style="color: #B31B1B;"><b>Weill Cornell Medicine</b></span></p>
 <p style="text-align: center;"><span style="color: #E87722;">Division of Biostatistics and Epidemiology</p>
 <p style="text-align: center;">Department of Healthcare Policy and Research</p>
 <p style="text-align: center;"><span style="color: #808080;">$author$, $footer_message$</span></p>
+</div>
 
 $if(theme)$
 
