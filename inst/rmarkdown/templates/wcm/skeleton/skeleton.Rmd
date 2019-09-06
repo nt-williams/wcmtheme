@@ -5,7 +5,7 @@ pi: "PI name"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 footer_message: "Message to follow your name in footer."
 output: 
-  wcmtheme::wcm: 
+  wcmtheme::wcm_html: 
     toc: true
     toc_float: true
 ---
