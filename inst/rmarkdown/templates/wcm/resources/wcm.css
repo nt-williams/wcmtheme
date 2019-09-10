@@ -1,5 +1,5 @@
 p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 }
@@ -44,14 +44,26 @@ caption {
   color: black;
 }
 
+/*
 #end_footer p {
-  font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 }
+*/
 
 #TOC {
   font-family: 'Roboto', 'Helvetica';
   font-weight: 400;
 	font-size: 15px;
+}
+
+#footerImage img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15px;
+	margin-bottom: -10px;
+	height: 80px;
+	width: 390px;
 }
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
@@ -60,13 +72,28 @@ caption {
 	border-color: #B31B1B;
 }
 
- .nav-tabs>li>a:hover {
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	color: black;
+	cursor: default;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a:hover {
 	 background-color: #B31B1B;
 	 color: #fff;
  }
 
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 3px solid #CF4520;
+ }
+
 a {
-	color: #555;
+	color: black;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 15px;
 }

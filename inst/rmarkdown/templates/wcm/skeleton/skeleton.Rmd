@@ -14,6 +14,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+> Inspired by the better poster, try including a take-home message about the report. 
+
 # Level one header
 
 Lorem ipsum dolor sit amet, quem deseruisse ut mea, mea et malorum deserunt. Eu est adipisci rationibus. An eos audiam adipiscing. Quot sale sea ei.
@@ -21,8 +23,6 @@ Lorem ipsum dolor sit amet, quem deseruisse ut mea, mea et malorum deserunt. Eu 
 ```{r}
 knitr::kable(head(iris))
 ```
-
-> You'll never be wrong if you turn right.
 
 ## Level two header
 

@@ -27,6 +27,7 @@ $endif$
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow:500" rel="stylesheet">
 
 $for(header-includes)$
 $header-includes$
@@ -545,11 +546,13 @@ $include-after$
 $endfor$
 
 <div id="end_footer">
-<hr />
-<p style="text-align: center;"><span style="color: #B31B1B;"><b>Weill Cornell Medicine</b></span></p>
-<p style="text-align: center;"><span style="color: #E87722;">Division of Biostatistics and Epidemiology</p>
-<p style="text-align: center;">Department of Healthcare Policy and Research</p>
-<p style="text-align: center;"><span style="color: #808080;">$author$, $footer_message$</span></p>
+  <hr />
+  <div id="footerImage">
+    <img src="https://i.imgur.com/9aLpkhR.png">
+  </div>
+  <p style="text-align: center; font-family: 'Barlow', sans-serif;">Division of Biostatistics and Epidemiology</p>
+  <p style="text-align: center; font-family: 'Barlow', sans-serif;">Department of Healthcare Policy and Research</p>
+  <p style="text-align: center; font-family: 'Barlow', sans-serif;"><span style="color: #808080;">$author$, $footer_message$</span></p>
 </div>
 
 $if(theme)$
