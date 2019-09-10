@@ -8,3 +8,5 @@ The theme also takes inspiration from the "better poster" paradigm and encourage
 - A parameterized footer
 
 `wcmtheme` can be installed from github with `devtools::install_github("nt-williams/wcmtheme")`.
+
+![](https://i.imgur.com/zsnFpHZ.png)
