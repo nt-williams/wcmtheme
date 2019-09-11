@@ -9,6 +9,10 @@ The theme also takes inspiration from the "better poster" paradigm and encourage
 - More professional looking tables
 - Automatic document dating
 
-`wcmtheme` can be installed from github with `devtools::install_github("nt-williams/wcmtheme")`. Once installed, the theme can be selected from Rstudio using File > New File > R Markdown... > From Template > wcm.
+## Installation
+
+`wcmtheme` can be installed from github with `devtools::install_github("nt-williams/wcmtheme")`. 
+
+Once installed, the theme can be selected from Rstudio using File > New File > R Markdown... > From Template > wcm.
 
 ![](https://i.imgur.com/zsnFpHZ.png)
