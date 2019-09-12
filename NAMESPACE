@@ -3,4 +3,7 @@
 import(rmarkdown)
 import(knitr)
 import(htmltools)
+import(wesanderson)
 export(wcm_html)
+export(wcm_palette)
+export(wcm_palettes)
