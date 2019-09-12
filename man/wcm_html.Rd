@@ -122,3 +122,6 @@ base R Markdown HTML output formatter \code{\link{html_document_base}}}
 \description{
 Template for creating an R markdown document for WCM Biostatistics reports. This function wraps \code{html_document()} from rmarkdown.
 }
+\seealso{
+\code{\link[rmarkdown]{html_document_base}}, \code{\link[rmarkdown]{includes}}, \code{\link[rmarkdown]{rmarkdown_format}}
+}

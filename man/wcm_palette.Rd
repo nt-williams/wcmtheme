@@ -7,12 +7,12 @@
 wcm_palette(palette_name, n, type = c("discrete", "continuous"))
 }
 \arguments{
+\item{palette_name}{Name of palette. Derived from \href{https://brand.weill.cornell.edu/brand-guidelines/color-palette}{WCM branding}.
+Choices are: \code{primary} (default), \code{secondary}}
+
 \item{n}{Number of colors desired. If omitted, uses all colours.}
 
 \item{type}{Either "continuous" or "discrete". Continuous automatically interpolates between colors.}
-
-\item{name}{Name of palette. Derived from \href{https://brand.weill.cornell.edu/brand-guidelines/color-palette}{WCM branding}.
-Choices are: \code{primary} (default), \code{secondary}}
 }
 \value{
 A vector of colors.

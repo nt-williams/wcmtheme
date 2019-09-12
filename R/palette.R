@@ -12,7 +12,7 @@ wcm_palettes <- list(
 #'
 #' Primary and secondary color palettes of Weill Cornell Medicine.
 #'
-#' @param name Name of palette. Derived from \href{https://brand.weill.cornell.edu/brand-guidelines/color-palette}{WCM branding}.
+#' @param palette_name Name of palette. Derived from \href{https://brand.weill.cornell.edu/brand-guidelines/color-palette}{WCM branding}.
 #'   Choices are: \code{primary} (default), \code{secondary}
 #' @param n Number of colors desired. If omitted, uses all colours.
 #' @param type Either "continuous" or "discrete". Continuous automatically interpolates between colors.
@@ -42,7 +42,20 @@ wcm_palette <- function(palette_name, n, type = c("discrete", "continuous")) {
                       discrete = pal[1:n]
   )
 
-  wesanderson:::print.palette(structure(to_return, class = "palette", name = palette_name))
+  structure(to_return, class = "palette", name = palette_name)
 }
 
+#' @export
+#' @importFrom graphics rect par image text
+#' @inheritParams wesanderson::print.palette
+print.palette <- function(x, ...) {
+  n <- length(x)
+  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
+  on.exit(par(old))
 
+  image(1:n, 1, as.matrix(1:n), col = x,
+        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
+
+  rect(0, 0.9, n + 1, 1.1, col = grDevices::rgb(1, 1, 1, 0.8), border = NA)
+  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "serif")
+}

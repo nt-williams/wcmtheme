@@ -3,6 +3,7 @@
 #' Template for creating an R markdown document for WCM Biostatistics reports. This function wraps \code{html_document()} from rmarkdown.
 #'
 #' @inheritParams rmarkdown::html_document
+#' @seealso \code{\link[rmarkdown]{html_document_base}}, \code{\link[rmarkdown]{includes}}, \code{\link[rmarkdown]{rmarkdown_format}}
 #' @export
 wcm_html <- function(toc = FALSE,
                      toc_depth = 3,
