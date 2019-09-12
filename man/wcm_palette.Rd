@@ -19,7 +19,8 @@ wcm_palette(palette_name, n, type = c("discrete", "continuous"))
 A vector of colors.
 }
 \description{
-official primary and secondary color palettes of WCM.
+Primary and secondary color palettes of Weill Cornell Medicine.
+  Derived from \href{https://brand.weill.cornell.edu/brand-guidelines/color-palette}.
 }
 \examples{
 wcm_palette("primary")

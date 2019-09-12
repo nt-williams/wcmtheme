@@ -10,7 +10,8 @@ wcm_palettes <- list(
 
 #' WCM palette generator
 #'
-#' official primary and secondary color palettes of WCM.
+#' Primary and secondary color palettes of Weill Cornell Medicine.
+#'   Derived from \href{https://brand.weill.cornell.edu/brand-guidelines/color-palette}.
 #'
 #' @param name Name of palette. Choices are:
 #'   \code{primary} (default), \code{secondary}
