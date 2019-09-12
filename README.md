@@ -9,6 +9,8 @@ The theme also takes inspiration from the "better poster" paradigm and encourage
 - More professional looking tables
 - Automatic document dating
 
+`wcmtheme` is heavily inspired by the `hrbrtheme` and `wesanderson` packages, kudos to those creators. 
+
 ## Installation
 
 `wcmtheme` can be installed from github with `devtools::install_github("nt-williams/wcmtheme")`. 
