@@ -11,13 +11,13 @@ wcm_palettes <- list(
 #' WCM palette generator
 #'
 #' Primary and secondary color palettes of Weill Cornell Medicine.
-#'   Derived from \href{https://brand.weill.cornell.edu/brand-guidelines/color-palette}.
 #'
-#' @param name Name of palette. Choices are:
-#'   \code{primary} (default), \code{secondary}
+#' @param name Name of palette. Derived from \href{https://brand.weill.cornell.edu/brand-guidelines/color-palette}{WCM branding}.
+#'   Choices are: \code{primary} (default), \code{secondary}
 #' @param n Number of colors desired. If omitted, uses all colours.
 #' @param type Either "continuous" or "discrete". Continuous automatically interpolates between colors.
-#'   @importFrom graphics rgb rect par image text
+#' @importFrom graphics rect par image text
+#' @importFrom grDevices rgb
 #' @return A vector of colors.
 #' @export
 #' @keywords colors
