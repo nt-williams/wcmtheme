@@ -21,4 +21,8 @@ A vector of colors.
 \description{
 official primary and secondary color palettes of WCM.
 }
+\examples{
+wcm_palette("primary")
+wcm_palette("primary", n = 10, type = "continuous")
+}
 \keyword{colors}

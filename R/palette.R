@@ -12,9 +12,9 @@ wcm_palettes <- list(
 #'
 #' official primary and secondary color palettes of WCM.
 #'
-#' @param n Number of colors desired. If omitted, uses all colours.
 #' @param name Name of palette. Choices are:
 #'   \code{primary} (default), \code{secondary}
+#' @param n Number of colors desired. If omitted, uses all colours.
 #' @param type Either "continuous" or "discrete". Continuous automatically interpolates between colors.
 #'   @importFrom graphics rgb rect par image text
 #' @return A vector of colors.
@@ -22,8 +22,10 @@ wcm_palettes <- list(
 #' @keywords colors
 #' @examples
 #' wcm_palette("primary")
-#' wcm_palette("primary", n = 10, type = "continuous)
+#' wcm_palette("primary", n = 10, type = "continuous")
 wcm_palette <- function(palette_name, n, type = c("discrete", "continuous")) {
+  if (missing(palette_name)) palette_name <- "primary"
+
   type <- match.arg(type)
   pal <- wcm_palettes[[palette_name]]
   len <- length(pal)
