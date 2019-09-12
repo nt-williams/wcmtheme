@@ -9,7 +9,7 @@ The theme also takes inspiration from the "better poster" paradigm and encourage
 - More professional looking tables
 - Automatic document dating
 
-`wcmtheme` is heavily inspired by the `hrbrtheme` and `wesanderson` packages, kudos to those creators. 
+`wcmtheme` is heavily inspired by the `hrbrthemes` and `wesanderson` packages, kudos to those creators. 
 
 ## Installation
 
