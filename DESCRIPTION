@@ -1,6 +1,6 @@
 Package: wcmtheme
 Title: WCM Biostatistics report themes. 
-Version: 0.1.1.9000
+Version: 0.1.2
 Authors@R:
     person(given = "Nick",
            family = "Williams",

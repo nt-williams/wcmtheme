@@ -18,7 +18,6 @@ wcm_html <- function(toc = FALSE,
                      df_print = "default",
                      code_folding = c("none", "show", "hide"),
                      code_download = FALSE,
-                     smart = TRUE,
                      self_contained = TRUE,
                      theme = "default",
                      highlight = "default",
@@ -43,8 +42,6 @@ wcm_html <- function(toc = FALSE,
 
   # table of contents
   args <- c(args, pandoc_toc_args(toc, toc_depth))
-
-  md_extensions <- rmarkdown:::smart_extension(smart, md_extensions)
 
   # toc_float
   if (toc && !identical(toc_float, FALSE)) {
